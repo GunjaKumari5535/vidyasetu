@@ -1,0 +1,143 @@
+
+.marks-management {
+  padding: 30px;
+  min-height: 100vh;
+  background: #f5f7ff;
+}
+
+.marks-back-btn {
+  border: none;
+  background: transparent;
+  color: #5267d9;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.marks-heading {
+  margin-bottom: 25px;
+}
+
+.marks-heading h2 {
+  color: #243b80;
+  font-size: 27px;
+  margin-bottom: 8px;
+}
+
+.marks-heading p {
+  color: #68738b;
+  font-size: 14px;
+}
+
+.marks-card {
+  max-width: 900px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 5px 25px rgba(45, 65, 130, 0.08);
+}
+
+.marks-card h3 {
+  color: #263d83;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.marks-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.marks-field {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.marks-field label {
+  color: #34446b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.marks-field input,
+.marks-field select {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #dce2f0;
+  border-radius: 9px;
+  background: #fff;
+  color: #283653;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+.marks-field input:focus,
+.marks-field select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.12);
+}
+
+.marks-submit-btn {
+  margin-top: 25px;
+  padding: 13px 28px;
+  background: linear-gradient(135deg, #667eea, #5265c9);
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.marks-submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(82, 101, 201, 0.25);
+}
+
+.marks-submit-btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.marks-error,
+.marks-success {
+  margin-top: 18px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.marks-error {
+  color: #b42318;
+  background: #fff0ef;
+}
+
+.marks-success {
+  color: #18794e;
+  background: #eaf8f0;
+}
+
+@media (max-width: 650px) {
+  .marks-management {
+    padding: 18px;
+  }
+
+  .marks-card {
+    padding: 20px;
+  }
+
+  .marks-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .marks-heading h2 {
+    font-size: 22px;
+  }
+}

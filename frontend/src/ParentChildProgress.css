@@ -1,0 +1,137 @@
+
+.parent-progress-page {
+  min-height: 100vh;
+  padding: 30px;
+  background: #f4f7ff;
+}
+
+.parent-progress-header {
+  max-width: 1100px;
+  margin: 0 auto 25px;
+}
+
+.parent-progress-back {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #e4eaff;
+  color: #4057b2;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.parent-progress-back:hover {
+  background: #d5deff;
+}
+
+.parent-progress-header h1 {
+  color: #263b80;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.parent-progress-header p {
+  color: #68738c;
+}
+
+.parent-child-card,
+.parent-marks-section {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 5px 25px rgba(35, 55, 110, 0.07);
+}
+
+.parent-child-card h2,
+.parent-marks-section h2 {
+  color: #344b96;
+  margin-bottom: 20px;
+}
+
+.parent-child-card p {
+  margin: 12px 0;
+  color: #4b5563;
+  font-size: 15px;
+}
+
+.parent-child-selector {
+  margin-top: 20px;
+}
+
+.parent-child-selector label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.parent-child-selector select {
+  width: 100%;
+  max-width: 350px;
+  padding: 11px;
+  border: 1px solid #d5dced;
+  border-radius: 8px;
+  background: white;
+}
+
+.parent-marks-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.parent-marks-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 650px;
+}
+
+.parent-marks-table th,
+.parent-marks-table td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #e8ecf5;
+}
+
+.parent-marks-table th {
+  background: #eef2ff;
+  color: #344b96;
+  font-weight: 600;
+}
+
+.parent-marks-table td {
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.parent-marks-table tbody tr:hover {
+  background: #f8faff;
+}
+
+.parent-progress-empty,
+.parent-progress-message {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 22px;
+  border-radius: 10px;
+  background: #fff;
+  color: #596780;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .parent-progress-page {
+    padding: 16px;
+  }
+
+  .parent-progress-header h1 {
+    font-size: 24px;
+  }
+
+  .parent-child-card,
+  .parent-marks-section {
+    padding: 18px;
+  }
+}

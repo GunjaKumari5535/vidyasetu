@@ -1,0 +1,109 @@
+
+.marks-history-page {
+  min-height: 100vh;
+  padding: 35px;
+  background: #f4f7ff;
+}
+
+.marks-history-header {
+  margin-bottom: 30px;
+}
+
+.history-back-btn {
+  border: none;
+  background: #667eea;
+  color: white;
+  padding: 11px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+
+.marks-history-header h1 {
+  color: #26356b;
+  margin-bottom: 8px;
+}
+
+.marks-history-header p {
+  color: #68738b;
+}
+
+.history-summary {
+  background: white;
+  padding: 18px 22px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: #344477;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.history-table-wrapper {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  overflow-x: auto;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 750px;
+}
+
+.history-table th,
+.history-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e8ecf5;
+}
+
+.history-table th {
+  color: #344477;
+  background: #f0f3ff;
+  font-weight: 600;
+}
+
+.history-table td {
+  color: #4b556b;
+  font-size: 14px;
+}
+
+.history-percentage {
+  color: #3159c9;
+  font-weight: 700;
+}
+
+.history-message,
+.history-error {
+  padding: 25px;
+  text-align: center;
+}
+
+.history-error {
+  color: #d32f2f;
+}
+
+.history-empty {
+  background: white;
+  padding: 45px 20px;
+  border-radius: 12px;
+  text-align: center;
+  color: #68738b;
+}
+
+.history-empty h3 {
+  color: #344477;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .marks-history-page {
+    padding: 20px 12px;
+  }
+
+  .marks-history-header h1 {
+    font-size: 24px;
+  }
+}

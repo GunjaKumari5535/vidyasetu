@@ -1,0 +1,30 @@
+# Java / Spring Boot
+backend/backend/target/
+*.class
+*.jar
+*.log
+
+# Local application credentials
+backend/backend/src/main/resources/application.properties
+backend/backend/src/main/resources/application-local.properties
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local Postman settings
+.postman/

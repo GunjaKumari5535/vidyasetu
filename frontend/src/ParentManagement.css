@@ -1,0 +1,125 @@
+
+.parent-management-page {
+  min-height: 100vh;
+  padding: 30px;
+  background: #f4f7ff;
+}
+
+.parent-management-header {
+  max-width: 850px;
+  margin: 0 auto 25px;
+}
+
+.parent-back-button {
+  border: none;
+  background: #e4eaff;
+  color: #4057b2;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.parent-back-button:hover {
+  background: #d5deff;
+}
+
+.parent-management-header h1 {
+  color: #263b80;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.parent-management-header p {
+  color: #68738c;
+  font-size: 15px;
+}
+
+.parent-form {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 5px 25px rgba(35, 55, 110, 0.08);
+}
+
+.parent-form h2 {
+  color: #344b96;
+  margin-bottom: 25px;
+  font-size: 21px;
+}
+
+.parent-form label {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 18px;
+  color: #374151;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.parent-form input,
+.parent-form select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d5dced;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  background: #ffffff;
+  color: #333;
+}
+
+.parent-form input:focus,
+.parent-form select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.12);
+}
+
+.parent-form button[type="submit"] {
+  width: 100%;
+  margin-top: 25px;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #667eea, #5365c9);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.parent-form button[type="submit"]:hover {
+  background: linear-gradient(135deg, #5365c9, #4053b5);
+}
+
+.parent-form button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.parent-message {
+  margin-top: 18px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #eef2ff;
+  color: #344b96;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .parent-management-page {
+    padding: 18px;
+  }
+
+  .parent-form {
+    padding: 20px;
+  }
+
+  .parent-management-header h1 {
+    font-size: 25px;
+  }
+}

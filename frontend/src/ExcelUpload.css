@@ -1,0 +1,149 @@
+
+.excel-upload-page {
+  min-height: 100vh;
+  padding: 35px 20px;
+  background: #f4f7ff;
+}
+
+.excel-back-btn {
+  border: none;
+  background: #667eea;
+  color: white;
+  padding: 11px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.excel-back-btn:hover {
+  background: #5367d5;
+}
+
+.excel-upload-card {
+  max-width: 650px;
+  margin: 20px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.07);
+}
+
+.excel-upload-icon {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.excel-upload-card h1 {
+  text-align: center;
+  color: #26356b;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.excel-subtitle {
+  text-align: center;
+  color: #68738b;
+  margin-bottom: 30px;
+}
+
+.excel-file-label {
+  display: block;
+  font-weight: 600;
+  color: #344477;
+  margin-bottom: 12px;
+}
+
+.excel-file-label input {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 14px;
+  border: 2px dashed #aab7ef;
+  border-radius: 10px;
+  background: #f8f9ff;
+  cursor: pointer;
+}
+
+.selected-file {
+  color: #3159c9;
+  margin: 12px 0;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.excel-format-info {
+  background: #f2f5ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 25px 0;
+  color: #465477;
+}
+
+.excel-format-info h3 {
+  color: #26356b;
+  margin-bottom: 8px;
+}
+
+.excel-format-info ol {
+  padding-left: 22px;
+  line-height: 1.9;
+  margin-top: 12px;
+}
+
+.excel-note {
+  font-size: 13px;
+  color: #68738b;
+  margin-top: 12px;
+}
+
+.excel-success,
+.excel-error {
+  padding: 13px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.excel-success {
+  background: #e8f7ed;
+  color: #237a3b;
+}
+
+.excel-error {
+  background: #fff0f0;
+  color: #c62828;
+  overflow-wrap: anywhere;
+}
+
+.excel-submit-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 9px;
+  background: #667eea;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.excel-submit-btn:hover {
+  background: #5367d5;
+}
+
+.excel-submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .excel-upload-card {
+    padding: 22px 16px;
+  }
+
+  .excel-upload-card h1 {
+    font-size: 22px;
+  }
+}
